@@ -20,6 +20,7 @@ class MyApp extends StatelessWidget {
     // also learn about many other widgets!
     return MaterialApp(
       title: 'Flutter First App',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(useMaterial3: true),
       home: Scaffold(
         appBar: AppBar(
@@ -30,7 +31,7 @@ class MyApp extends StatelessWidget {
           padding: const EdgeInsets.all(12),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
-            crossAxisAlignment: CrossAxisAlignment.start,
+            crossAxisAlignment: CrossAxisAlignment.center,
             children: const [
               Text(
                 'Flutter - The Complete Guide Course',
